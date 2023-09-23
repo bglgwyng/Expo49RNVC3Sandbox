@@ -16,7 +16,12 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.gwyng.Expo49RNVC3Sandbox"
+      "bundleIdentifier": "com.gwyng.Expo49RNVC3Sandbox",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Allow $(PRODUCT_NAME) to access your camera",
+        "NSPhotoLibraryUsageDescription": "Allow $(PRODUCT_NAME) to access to your photo library.",
+        "NSPhotoLibraryAddUsageDescription": "Allow $(PRODUCT_NAME) to save photos to your photo library."
+      }
     },
     "android": {
       "adaptiveIcon": {
