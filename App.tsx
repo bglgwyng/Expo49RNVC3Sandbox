@@ -38,7 +38,7 @@ function App(): JSX.Element {
             device={device}
             style={{ flex: 1 }}
             fps={30}
-            frameProcessor={frameProcessor}
+            // frameProcessor={frameProcessor}
             video={false}
             isActive />
         )}
